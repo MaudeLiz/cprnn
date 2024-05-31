@@ -1,0 +1,29 @@
+runs: 1
+train:
+  epochs: 2
+  lr: 0.001 
+  threshold : 0.02
+  factor : 0.5 
+  patience : 2
+  batch_size: 128
+  seq_len: 50
+  grad_clip: inf
+  hpopt: False
+  verbose: False
+model:
+  name: cprnn 
+  input_size: 0
+  hidden_size: 16
+  rank: 8
+  dropout: 0
+  gate: tanh 
+data:
+  path: data/processed/ptb # Path to the data
+  tokenizer: char # char, word
+  output: runs
+eval:
+  path: 'runs'
+
+
+
+

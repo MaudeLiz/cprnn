@@ -1,0 +1,30 @@
+# Generating BPC vs. Number of Parameters plot
+visualization:
+  root: "./runs/ptb"
+  output_filename: "bpc_vs_params.png"
+  group_by: ["model.name"]
+train:
+  epochs: any
+  lr: any
+  factor: any
+  patience: any
+  threshold: any
+  batch_size: any
+  seq_len: 50
+  grad_clip: inf
+  hpopt: any
+  verbose: any
+model:
+  name: any 
+  input_size: any 
+  hidden_size: any
+  rank: any
+  dropout: any
+  gate: any 
+data:
+  path: any 
+  output: any 
+  tokenizer: any 
+eval:
+  path: any
+runs : any
