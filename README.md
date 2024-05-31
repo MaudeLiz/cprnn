@@ -1,4 +1,4 @@
-# Tensorized 2RNN (CPRNN)
+# CPRNN
 
 This repository is the official implementation of [A Tensorized Perspective on Second-order RNNs](link to arxiv). 
 
