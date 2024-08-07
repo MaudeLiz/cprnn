@@ -107,7 +107,6 @@ cython_debug/
 #.idea/
 # Pytorch logs
 runs
-model*
 best_model*
 # VS Code docs
 .vscode
