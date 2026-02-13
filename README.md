@@ -1,6 +1,6 @@
 # CPRNN
 
-This repository is the official implementation of [A Tensorized Perspective on Second-order RNNs](link to arxiv). 
+This repository is the official implementation of [A Tensorized Perspective on Second-order RNNs](https://arxiv.org/abs/2406.05045). 
 
 ## Installation
 This project uses Python 3.8. 
